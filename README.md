@@ -6,3 +6,5 @@
 
 
 blog.paperspace.com/pytorch-101-understanding-graphs-and-automatic-differentiation/
+
+http://blog.zakjost.com/

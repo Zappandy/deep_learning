@@ -2,8 +2,8 @@
 
 ## Classification Problem
 
-In a classification problem for example with a image making up of pixel we can rrrepresent ech pixel as features for instance x1, x2, x3 x4 and the label of the oimage can be represeted with also with numbers, but if the image is not belong tito a ordering list, the best way to represent the label is with a one-hot encoding, this is making by putting a vector of zeros and ones, where each one represent the position of the label, so for example if we have 3 images, belong to cat,chiken and dog we can represent the labels with the following vector
+In classification image problems, each pixel feature may be represented as x1, x2, x3, and x4. Their labels may be stored with numbers, but if these values are not ordered, it's much better to rely on one-hot encoding. I.e. we create vectors with binary values for each label. For instance, let's say we have 3 pictures: a cat, a chicken, and a dog. We can store these as follows:
 
-(1, 0,0) correspond to cat
-(0, 1, 0) correspond to chiken
-(0, 0, 1) corrspond to dog
+-(1, 0,0) cat
+-(0, 1, 0) chicken
+-(0, 0, 1) dog

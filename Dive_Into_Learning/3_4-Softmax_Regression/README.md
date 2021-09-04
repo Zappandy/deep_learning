@@ -47,10 +47,15 @@ We are given a minibatch of **X** this turns the matrix-vector multiplication in
 ## Loss function
 
 
-### Log-Likelihood
+### Log-Likelihood, softmax, and derivatives
 
-The maximum likelihood estimation's minimization equivalent is the negative log-likelihood:
+The maximum likelihood estimation's minimization equivalent is the negative log-likelihood. The loss function *l* is the *cross-entropy loss*:
 
 ![](images/)
 
-This loss function *l* is the *cross-entropy loss*
+
+### Cross-Entropy Loss
+
+The one-hot encoding is translated to probabilities. Cross-Entropy Loss is the expected value of the loss for a
+distribution over labels.
+

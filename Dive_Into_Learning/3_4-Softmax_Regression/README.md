@@ -43,3 +43,14 @@ We are given a minibatch of **X** this turns the matrix-vector multiplication in
 **O = XW + b**
 
 **Y-hat** = softmax(**O**)
+
+## Loss function
+
+
+### Log-Likelihood
+
+The maximum likelihood estimation's minimization equivalent is the negative log-likelihood:
+
+![](images/)
+
+This loss function *l* is the *cross-entropy loss*

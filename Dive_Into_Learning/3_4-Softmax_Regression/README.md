@@ -59,3 +59,15 @@ The maximum likelihood estimation's minimization equivalent is the negative log-
 The one-hot encoding is translated to probabilities. Cross-Entropy Loss is the expected value of the loss for a
 distribution over labels.
 
+## Information Theory Basics
+
+- Entropy: Minimum amount of nats to encode data from the P distribution.
+	- nat: 1/log(2) --> aprox 1.44 bit
+	- If you wonder what a “nat” is, it is the equivalent of bit but when using a code with base e rather than one with base 2
+	- This amount of nats to encode it is represented as H[P]
+- Surprisal: When we have subsequent tokens for compression that we cannot predict, i.e. they *surprise* us
+	- Our surprise is greater when we assigned an event lower probability.
+	- When an event holds a low probability is given, its surprisal is high.
+In short, we can think of the cross-entropy classification objective in two ways: (i) as maximizing
+the likelihood of the observed data; and (ii) as minimizing our surprisal (and thus the number of
+bits) required to communicate the labels.

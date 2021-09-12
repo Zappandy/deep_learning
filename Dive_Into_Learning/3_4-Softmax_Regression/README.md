@@ -52,7 +52,7 @@ The loss function gives a measure to estimate the quality of our predicted proba
 
 The maximum likelihood estimation's minimization equivalent is the negative log-likelihood. The loss function *l* is the *cross-entropy loss*:
 
-![](images/softmax.png)
+![](Images/softmax.png)
 
 
 ### Cross-Entropy Loss

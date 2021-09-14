@@ -46,12 +46,13 @@ We are given a minibatch of **X** this turns the matrix-vector multiplication in
 
 ## Loss function
 
+The loss function gives a measure to estimate the quality of our predicted probabilities. The maximum likehood estimator give us the information about which parameters are the apropiate to aproaching to the correct values of our predicted values
 
 ### Log-Likelihood, softmax, and derivatives
 
 The maximum likelihood estimation's minimization equivalent is the negative log-likelihood. The loss function *l* is the *cross-entropy loss*:
 
-![](images/)
+![](Images/softmax.png)
 
 
 ### Cross-Entropy Loss
